@@ -1,0 +1,138 @@
+#root{
+    position: relative;
+}
+.App{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.MuiTabs-flexContainer{
+    justify-content:center !important;
+}
+.MuiTabs-flexContainer > *{
+    flex: 1;
+}
+.form_button{
+    flex-basis: 20px;
+    padding: 12px !important;
+    align-self: flex-end;
+}
+.accordion-desc{
+    margin:5px 10px;
+    padding-right:50px;
+}
+.MuiAccordion-root{
+    margin: 0 !important;
+    width: 100% !important;
+    margin-bottom:3px !important;
+}
+.panel_tarefas{
+    padding: 10px 0px !important;
+}
+.MuiAccordionActions-spacing{
+    padding: 2px !important;
+}
+.tarefa_titulo{
+    font-family: 'Courier New', Courier, monospace !important;
+}
+.btn_success{
+    background-color: rgb(63, 226, 63) !important;
+    color:white !important;
+}
+.btn_error{
+    background-color: rgb(219, 67, 56) !important;
+    color:white !important;
+}
+.modal_title{
+    position:relative;
+}
+.descricao{
+    font-family: monospace;
+}
+.descricao b{
+    font-weight: bolder;
+    text-decoration:underline;
+}
+.fab_mais,.fab_filtrar{
+    position: fixed;
+    bottom:10px;
+    right: 10px;
+}
+.fab_filtrar{
+    right:20px;
+}
+.MuiCollapse-entered:last-child{
+    margin-bottom: 60px;
+}
+.desc_titulo{
+    overflow: hidden;
+}
+.desc_titulo h6{
+    padding: 8px;
+    text-align: center;
+}
+.desc_titulo p{
+    font-size: 13px;
+    padding:12px 20px;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+}
+.separador{
+    width: 50%;
+    height:1px;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.589);
+}
+@media (max-width:900px){
+    .desc_titulo p{
+        width: 100%;
+    }
+    .separador{
+        
+    }
+}
+.desc_titulo p i{
+    text-decoration: underline;
+}
+.lista_img{
+    width:100%;
+    /* position: relative; */
+    margin: 0 auto;
+}
+.lista_img figure div{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    /* height:300px; */
+}
+.lista_img figcaption{
+    width: 100%;
+    padding:20px;
+    text-align: center;
+    font-size: 1.1em;
+    /* background-color: rgba(0, 0, 0, 0.493); */
+}
+.lista_img img{
+    width:300px;
+    height: 250px;
+    margin: 10px;
+    transition: all .5s ease-in;
+    cursor: pointer;
+}
+.lista_img img:hover{
+    transform: scale(1.3);
+}
+.sobre_info{
+    display: grid;
+    width: 100%;
+    max-width: 500px;
+    grid-template-columns: auto auto;
+    /* grid-template-rows: 20px; */
+    grid-auto-rows: 35px;
+}
