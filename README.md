@@ -9,7 +9,7 @@
 
 Criado com `React e Material-UI` para _fins de treino_, o `gestor de tarefas` é uma aplicação simples que se destina simplesmente a registar, _ler, manipular e filtrar suas tarefas_. Ela foi criada inicialmente para apenas exercitar os conceitos absorvidos por mim nos primeiros meses trabalhando com o `React`, mas acabou se tornando a ferramenta que até hoje utilizo para registar minhas tarefas.
 
-![gestor-de-tarefas](https://user-images.githubusercontent.com/74926014/180441219-14fb0171-6a8a-4eb8-9aad-203b88aa4aa5.gif)
+![gestor-de-tarefas](https://user-images.githubusercontent.com/74926014/181217192-c87bbf5b-5969-453f-a715-3fda58ca9245.gif)
 
 
 ##
